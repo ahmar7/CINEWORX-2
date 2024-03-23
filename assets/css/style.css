@@ -167,6 +167,10 @@ h6 {
   #header .logo {
     font-size: 28px;
   }
+  #header .logo img {
+    max-height: max-content;
+    width: 63px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -288,7 +292,7 @@ h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 31px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -458,7 +462,7 @@ h6 {
 @media (max-width: 768px) {
   #intro h2,
   #intro h3 {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 
@@ -649,6 +653,12 @@ section {
   }
   .breadcrumbs ol li {
     display: inline-block;
+  }
+}
+@media (max-width: 450px) {
+  #intro h2,
+  #intro h3 {
+    font-size: 20px;
   }
 }
 
