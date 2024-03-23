@@ -99,9 +99,10 @@ h6 {
   animation: animate-preloader 1s linear infinite;
 }
 .hidden-it {
-  visibility: hidden;
+  visibility: visible;
+
   opacity: 0;
-  display: none;
+  position: absolute;
 }
 .asla:hover {
   color: black !important;
