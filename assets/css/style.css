@@ -447,7 +447,8 @@ h6 {
   text-align: center;
 }
 
-#intro h2 {
+#intro h2,
+#intro h3 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
@@ -455,7 +456,8 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #intro h2 {
+  #intro h2,
+  #intro h3 {
     font-size: 28px;
   }
 }
